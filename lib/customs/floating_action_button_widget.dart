@@ -14,12 +14,12 @@ class FloatingActionButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     if (selectedIndex == 0) {
       return FloatingActionButton(
-        heroTag: 'notesFAB', // Unique hero tag to avoid conflict
+        heroTag: 'notesFAB',
         onPressed: onPressed,
         child: const Icon(Icons.add),
       );
     }
     return const SizedBox
-        .shrink(); // Return an empty widget when not showing the FAB
+        .shrink(); 
   }
 }
