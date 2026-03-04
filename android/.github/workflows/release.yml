@@ -37,7 +37,7 @@ jobs:
 
       - name: Restore firebase_options.dart
         run: |
-          echo "${{ secrets.FIREBASE }}" | base64 --decode > lib/firebase_options.dart
+          echo "${{ secrets.FIREBASEACTIONS }}" | base64 --decode > lib/firebase_options.dart
 
       # 5 ── Get dependencies
       - name: Flutter pub get
