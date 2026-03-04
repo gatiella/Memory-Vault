@@ -52,7 +52,7 @@ flutter run
 ---
 
 ## Download
-[![Download APK](https://img.shields.io/badge/Download-APK-green?logo=android)](https://github.com/your-username/memory-vault/releases/latest/download/app-release.apk)
+[![Download APK](https://img.shields.io/badge/Download-APK-green?logo=android)](https://github.com/gatiella/memory-vault/releases/latest/download/app-release.apk)
 
 ## License
 
