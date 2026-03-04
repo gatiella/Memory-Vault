@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1078261651972",
+    "project_id": "noteapp-96ab0",
+    "storage_bucket": "noteapp-96ab0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078261651972:android:51e7e6a4d08bcf88ebb351",
+        "android_client_info": {
+          "package_name": "gatiella.app.noteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078261651972-5t3vspn2b8t7ssd77id0cc35ce921fl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gatiella.app.noteapp",
+            "certificate_hash": "7f0b6e6cb842647888ca516bd827da6979436efb"
+          }
+        },
+        {
+          "client_id": "1078261651972-jaf3lbafgt4998em1ihbvejeb64du9ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwqKtGRPeIiqxZu7sEozlDDqten-lqUq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078261651972-jaf3lbafgt4998em1ihbvejeb64du9ss.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1078261651972-g969safpc9r99dmo6h5c57jd8moorh3p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "gatiella.app.noteapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
