@@ -26,7 +26,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.27.0'
+          flutter-version: '3.29.0'
           channel: 'stable'
           cache: true
 
@@ -39,21 +39,21 @@ jobs:
         run: |
           echo "${{ secrets.FIREBASEACTIONS }}" | base64 --decode > lib/firebase_options.dart
 
-      # 5 ── Get dependencies
+      # 6 ── Get dependencies
       - name: Flutter pub get
         run: flutter pub get
 
-      # 6 ── Build release APK
+      # 7 ── Build release APK
       - name: Build APK
         run: flutter build apk --release
 
-      # 7 ── Rename APK to include version tag
+      # 8 ── Rename APK to include version tag
       - name: Rename APK
         run: |
           mv build/app/outputs/flutter-apk/app-release.apk \
              build/app/outputs/flutter-apk/MemoryVault-${{ github.ref_name }}.apk
 
-      # 8 ── Create GitHub Release and upload APK
+      # 9 ── Create GitHub Release and upload APK
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
