@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Memory Vault</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0A0A0F;
+      color: #E0E0F0;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #4F6EF7, #7C3AED);
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      letter-spacing: 0.5px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      background: linear-gradient(135deg, #4F6EF7, #A78BFA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #6B6B8A;
+      font-size: 14px;
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #C0C0E0;
+      margin: 36px 0 12px;
+      padding-left: 12px;
+      border-left: 3px solid #4F6EF7;
+    }
+
+    p {
+      color: #9090B0;
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 8px 0 12px;
+    }
+
+    ul li {
+      color: #9090B0;
+      font-size: 15px;
+      padding: 4px 0 4px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: #4F6EF7;
+    }
+
+    a {
+      color: #4F6EF7;
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .card {
+      background: #13131F;
+      border: 1px solid #1E1E35;
+      border-radius: 16px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .card p { margin: 0; }
+
+    .highlight {
+      background: linear-gradient(135deg, #4F6EF720, #7C3AED10);
+      border: 1px solid #4F6EF740;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 16px 0;
+      color: #A0A0C0;
+      font-size: 14px;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #1E1E35;
+      color: #4A4A6A;
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="badge">🔐 Privacy Policy</div>
+    <h1>Memory Vault</h1>
+    <p class="subtitle">Last updated: March 2026 &nbsp;·&nbsp; Effective immediately</p>
+
+    <div class="card">
+      <p>Memory Vault is a personal notes and to-do application. We are committed to protecting your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p>We collect only the minimum data necessary to provide the app's core functionality:</p>
+    <ul>
+      <li><strong>Account information</strong> — your email address and display name when you sign in with Google or email/password via Firebase Authentication.</li>
+      <li><strong>Notes and to-dos</strong> — the content you create inside the app, stored securely in Firebase Firestore under your unique user ID.</li>
+      <li><strong>Google Drive data</strong> — if you use the Google Drive backup feature, your notes and to-dos are saved to a folder called <code>MyNotes</code> in your own Google Drive account. We only access files created by this app (<code>drive.file</code> scope).</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>To authenticate you and keep your data private to your account.</li>
+      <li>To store, sync, and display your notes and to-dos across devices.</li>
+      <li>To back up your data to your personal Google Drive when enabled.</li>
+    </ul>
+
+    <div class="highlight">
+      We do <strong>not</strong> sell, share, or monetize your personal data in any way. We do not use your data for advertising.
+    </div>
+
+    <h2>3. Data Storage & Security</h2>
+    <p>Your data is stored in <a href="https://firebase.google.com" target="_blank">Google Firebase</a> (Firestore), protected by Firebase Security Rules that ensure only you can access your own data. All communication is encrypted in transit via HTTPS/TLS.</p>
+    <p>Google Drive backups are stored in your own Google account and are governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+
+    <h2>4. Biometric Data</h2>
+    <p>Memory Vault uses your device's biometric authentication (fingerprint or face ID) as an optional app lock. Biometric data is processed entirely on your device by the operating system and is never transmitted to us or any server.</p>
+
+    <h2>5. Third-Party Services</h2>
+    <p>We use the following third-party services, each governed by their own privacy policies:</p>
+    <ul>
+      <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase (Google)</a> — authentication and database</li>
+      <li><a href="https://policies.google.com/privacy" target="_blank">Google Sign-In & Google Drive</a> — login and backup</li>
+    </ul>
+
+    <h2>6. Data Retention & Deletion</h2>
+    <p>Your data is retained as long as your account exists. You can delete your notes and to-dos at any time from within the app. To request full account and data deletion, contact us at the email below and we will delete your data from Firebase within 30 days.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Memory Vault is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us immediately.</p>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date. Continued use of the app after changes constitutes your acceptance of the new policy.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions about this privacy policy or your data, please contact us at:</p>
+    <div class="card">
+      <p>📧 <a href="mailto:gatiella@gmail.com">gatiella@gmail.com</a><br/>
+      🐙 <a href="https://github.com/gatiella/Memory-Vault" target="_blank">github.com/gatiella/Memory-Vault</a></p>
+    </div>
+
+    <div class="footer">
+      © 2026 Memory Vault · Built by gatiella · All rights reserved
+    </div>
+
+  </div>
+</body>
+</html>
